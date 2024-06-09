@@ -1,17 +1,17 @@
-function squareSum(numbers){
-    let nums_len = numbers.length;
-    let result = 0;
+// function squareSum(numbers){
+//     let nums_len = numbers.length;
+//     let result = 0;
     
-    for (let i = 0; i < nums_len; i++) {
-      result += numbers[i] ** 2;
-      console.log(result);  
-    }
+//     for (let i = 0; i < nums_len; i++) {
+//       result += numbers[i] ** 2;
+//       console.log(result);  
+//     }
     
-    return result;
-  }
+//     return result;
+//   }
 
 
-squareSum(nums = [1, 2, 2]);
+// squareSum(nums = [1, 2, 2]);
  
 
 
