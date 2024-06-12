@@ -68,3 +68,13 @@ figcaption {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: gray;
 }
+
+div.form-example {
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+label,
+input {
+    display: table-cell;
+}
