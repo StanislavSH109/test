@@ -24,7 +24,7 @@ body {
 }
 
 img {
-    margin-top: 10px;
+    display: block;
     width: 200px;
     height: 300px;
 }
@@ -36,11 +36,35 @@ img {
     
 }
 
+.container-airbus-main {
+    font-family: segoe UI Light;
+    font-size: 20px;
+    display: flex;
+    
+}
+
+.container-aibus__left {
+    margin-right: 5px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.container-airbus__right {
+    margin-top: 10px;
+    padding-right: 100px;
+}
+
+
 .container-airbus__title {
     text-align: center;
 }
 
 .airbus-img {
-    width: 500px;
-    height: 400px;
+    width: 400px;
+    height: 300px;
+}
+
+figcaption {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: gray;
 }
