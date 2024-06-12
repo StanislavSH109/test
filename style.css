@@ -74,6 +74,10 @@ div.form-example {
     margin-left: 10px;
 }
 
+input {
+    padding: 5px;
+}
+
 label,
 input {
     display: table-cell;
