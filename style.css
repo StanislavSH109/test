@@ -69,6 +69,10 @@ figcaption {
     color: gray;
 }
 
+form {
+    margin: 0;
+}
+
 div.form-example {
     margin-top: 10px;
     margin-left: 10px;
@@ -81,4 +85,17 @@ input {
 label,
 input {
     display: table-cell;
+}
+
+.form-example2 {
+    margin-top: 10px;
+    margin-left: 5px;
+    
+}
+
+button.form-example2 {
+    padding: 10px;
+    color: brown;
+    background-color: orange;
+    
 }
