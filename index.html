@@ -86,7 +86,7 @@
             </div>
             <div class="form-example">
                 <label for="surname">Фамилия:</label>
-                <input type="text" name="surname" id="name" required>
+                <input type="text" name="surname" id="name2" required>
             </div>
             <div class="form-example">
                 <input type="submit" name="post-data" id="">
@@ -97,8 +97,51 @@
             <button class="form-example2" autofocus>Submit</button>
             <button class="form-example2" disabled>Push</button>
         </form>
-
+    
+    <ol>
+        <ul>
+            <li>Lorem, ipsum dolor.</li>
+            <li>Lorem, ipsum.</li>
+            <li>Lorem ipsum dolor sit.</li>
+            <li>Lorem ipsum dolor sit amet.</li>
+        </ul>
+    </ol>
+    
     </div>
+
+    <h1>Каталог товаров</h1>
+    <ul id="product-list">
+        <li>
+            <span>Товар 1</span>
+            <button onclick="addToCart('Товар 1')">Добавить в корзину</button>
+        </li>
+        <li>
+            <span>Товар 2</span>
+            <button onclick="addToCart('Товар 2')">Добавить в корзину</button>
+        </li>
+        <li>
+            <span>Товар 3</span>
+            <button onclick="addToCart('Товар 3')">Добавить в корзину</button>
+        </li>
+    </ul>
+    <h1>Корзина</h1>
+    <ul id="cart">
+    </ul>
+    
+
+</html>
 </body>
 <script src="main.js"></script>
+<script>
+
+    function addToCart (product) {
+
+        const productItem = document.createElement('li');
+        productItem.textContent = product;
+        document.getElementById('cart').append(product);
+        
+    }
+
+
+</script>
 </html>
